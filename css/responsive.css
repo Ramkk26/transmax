@@ -1,0 +1,340 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+  .carousel-control-prev {
+    /* left: 95.5%; */
+    margin-top: 50px;
+  }
+  .service-prov-content:hover .quality-head{
+    top: -324%;;
+  }
+  .service-prov-content:hover .quality-count{
+    top: -420%;
+  
+  }
+}
+
+.carousel-inner {
+  display: flex;
+}
+.carousel-content-list {
+  flex: 0 0 calc(100% / 3);
+  margin-right: 0;
+  display: block;
+}
+@media (max-width: 1024px) {
+  .tooltip-content .right {
+    min-width: 145px;
+    top: 104%;
+    transform: translate(-67%, -50%);
+  }
+}
+@media (max-width: 991.98px) {
+  .carousel-control-prev {
+    /* left: 95%; */
+    margin-top: 50px;
+  }
+
+  .carousel-control-next {
+    right: 0.5%;
+  }
+  .service-prov-content:hover .quality-head{
+    top: -224%;;
+  }
+  .service-prov-content:hover .quality-count{
+    top: -320%;
+  
+  }
+  .quality-head{
+    top: -100%;
+  }
+  .quality-count{
+    top: -200%;
+  
+  }
+}
+@media (max-width: 768px) {
+  .hide-it {
+    display: block;
+  }
+  .carousel-dark .carousel-caption {
+    max-width: 53%;
+  }
+  .carousel-control-next-icon {
+    width: 15px;
+  }
+  .headline {
+    font-size: 40px;
+    letter-spacing: 2px;
+  }
+  .next-btn,
+  .prev-btn {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+  }
+  .carousel-control-next {
+    right: 1%;
+  }
+  .carousel-control-prev-icon {
+    width: 15px;
+  }
+  .service-provided {
+    background-image: url(/images/company-img/container-truck.avif);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+  }
+  .service-prov-content {
+    height: 350px;
+  }
+  .quality-head {
+    top: -123%;
+  }
+  
+
+.service-prov-content:hover .quality-head {
+    top: -234%;
+}
+
+.quality-count {
+  top: -223%;
+}
+.service-prov-content:hover .quality-count {
+  top: -321%;
+}
+  .content-img::before {
+    content: "";
+    background-image: url(/images/slider-imag/enggwoker.jpg);
+    position: absolute;
+    top: 65%;
+    right: 47%;
+    z-index: 999;
+    width: 171px;
+    height: 211px;
+    background-size: 200px;
+  }
+
+
+  .tooltip-content .right {
+    transform: translate(-73%, -50%);
+  }
+  .tooltip-content-1 .left {
+    width: 434px;
+
+    transform: translate(0%, -15%);
+  }
+  .text-content-item {
+    gap: 37px;
+    padding-left: 61px;
+    padding-top: 18px;
+    padding-bottom: 8px;
+  }
+
+  .overlap {
+    top: 45%;
+  }
+  .arrow-up {
+    bottom: 1%;
+    right: 6px;
+  }
+  .card {
+    border-bottom: 2px solid #ff7e44;
+  }
+  swiper-slide {
+    border-bottom: 0;
+  }
+  .carousel-inner {
+    margin-top: 0;
+  }
+  .hover-line:hover::after {
+    width: 0%;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .nav-text {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 578px) {
+  .carousel-inner {
+    margin-top: -60px;
+  }
+
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: var(--bs-gutter-y);
+  }
+  .headline {
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .hero-img {
+    height: 500px;
+    object-fit: cover;
+  }
+  .makeitflex {
+    display: grid;
+    gap: 9px;
+    text-align: center;
+  }
+  .carousel-dark .carousel-caption {
+    max-width: 47%;
+}
+  .carousel-control-next {
+    right: 23px;
+  }
+  .carousel-control-next-icon {
+    width: 15px;
+  }
+  .carousel-control-prev {
+    /* left: 519px; */
+    right: 21px;
+  }
+
+  .section-padding {
+    padding-top: 50px;
+  }
+  .content-img {
+    padding-top: 60px;
+  }
+
+  .tooltip-content .right {
+    transform: translate(-90%, -50%);
+  }
+  .tooltip-content-1 .left {
+    width: 358px;
+    left: -7px;
+    transform: translate(0%, 128%);
+  }
+
+  .text-content-item {
+    gap: 13px;
+    padding-left: 17px;
+    padding-top: 18px;
+    padding-bottom: 0px;
+}
+  .service-prov-content {
+    height: 250px;
+  }
+  .service-provided {
+    background-image: url(/images/company-img/container-truck.avif);
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+  }
+
+  .quality-head {
+    top: -123%;
+  }
+  
+
+.service-prov-content:hover .quality-head {
+    top: -234%;
+}
+
+.quality-count {
+  top: -223%;
+}
+.service-prov-content:hover .quality-count {
+  top: -321%;
+}
+  .tooltip-content-1 .left i::before {
+    content: "";
+    position: absolute;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+  }
+
+  .section-padding-facilities {
+    padding-top: 50px;
+    padding-bottom: 250px;
+  }
+  .world-map {
+    height: 830px;
+  }
+  .counter-sec {
+    padding-top: 35px;
+  }
+  .section-padding-testimonial {
+    padding: 60px 0px;
+  }
+  .mobile-padding {
+    padding-top: 40px;
+  }
+  .news-sec {
+    padding: 50px 0px;
+  }
+
+  .content-img::before {
+    content: "";
+    background-image: url(/images/slider-imag/enggwoker.jpg);
+    position: absolute;
+    top: 65%;
+    right: 47%;
+    z-index: 999;
+    width: 171px;
+    height: 211px;
+    background-size: 200px;
+  }
+  .carousel-caption {
+    position: absolute;
+    /* right: 15%; */
+    /* bottom: 1.25rem; */
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left;
+    top: 8%;
+  }
+  .overlap {
+    top: 190px;
+  }
+  .makecenter {
+    text-align: start;
+  }
+  .carousel-inner {
+    margin-top: 0;
+  }
+  .hide-it {
+    display: block;
+  }
+  .hover-line:hover::after {
+    width: 0%;
+  }
+  .hide-mobile {
+    display: none;
+  }
+  .transition-in {
+    transition: 0;
+    transform: translateX(0);
+    filter: blur(0);
+  }
+  .nav-text {
+    font-size: 17px;
+  }
+  .mobile-block {
+    display: block;
+  }
+}
